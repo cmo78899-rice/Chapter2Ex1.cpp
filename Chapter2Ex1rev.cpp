@@ -10,14 +10,19 @@ Sum of Two Numbers Wire a program that stores the integers 50 and 100 in variabl
 */
 
 #include <iostream>
+using namespace std;
 
 int main()
 {
-    int number1=50;
-    int number2=100;
+    int number1;
+    int number2;
     int sum;
+    cout <<"Please enter your first number";
+    cin >> number1;
+    cout << "Please enter your second number";
+    cin >> number2;
     sum = number1 + number2;
-    std::cout << "The sum of " << number1 << " + " << number2 << " is " << sum;
+    cout << "The sum of " << number1 << " + " << number2 << " is " << sum;
     return 0;
 
 }
