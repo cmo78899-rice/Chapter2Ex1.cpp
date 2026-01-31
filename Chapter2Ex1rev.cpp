@@ -18,6 +18,7 @@ int main()
     int sum;
     sum = number1 + number2;
     std::cout << "The sum of " << number1 << " + " << number2 << " is " << sum;
+    return 0;
 
 }
 
